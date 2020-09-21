@@ -14,5 +14,5 @@ Os padrões comportamentais cuidam da comunicação eficiente e da assinalação
          Structure de um padrão é normalmente exibida como algum tipo de objeto ou diagrama de classe.
             f. Participants
             Os participantes do padrão são as classes e objetos que o compõem. Cada classe ou objeto também possui uma lista de responsabilidades.
-              g. Sample Code (apontar para a pasta com o código de exemplo)
+              g. Sample Code (https://github.com/charlyandrei/PadraodeProjeto/commit/7e57bcf49e3fe151ef74382ae25d95fdc9c955c6#commitcomment-42606074)
               
