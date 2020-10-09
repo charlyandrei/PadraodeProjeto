@@ -26,4 +26,4 @@ Essa implementação usa o princípio de composição do objeto: o adaptador imp
    -Client colabora com objetos em conformidade com a interface de destino.
   - Sample Code 
   
-  ![](https://github.com/charlyandrei/PadraodeProjeto/blob/master/Padrao%20Adapter/CodeAdapter)
+  (https://github.com/charlyandrei/PadraodeProjeto/blob/master/Padrao%20Adapter/CodeAdapter)
