@@ -1,5 +1,6 @@
 # Padrão Projeto Adapter
 1.Pattern Name and Classification
+
 Essa implementação usa o princípio de composição do objeto: o adaptador implementa a interface de um objeto e encobre o outro. Ele pode ser implementado em todas as linguagens de programação populares.
   -Intent
   O Adapter é um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
