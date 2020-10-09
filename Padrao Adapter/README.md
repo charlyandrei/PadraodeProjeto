@@ -13,7 +13,7 @@ Você poderia mudar a biblioteca para que ela funcione com XML. Contudo, isso po
   
   - Structure 
   
-  (https://refactoring.guru/images/patterns/diagrams/adapter/example.png)
+  ![](https://refactoring.guru/images/patterns/diagrams/adapter/example.png)
   
   - Participants
   
