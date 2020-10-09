@@ -24,4 +24,6 @@ Essa implementação usa o princípio de composição do objeto: o adaptador imp
    -Adaptee define uma interface existente que precisa de adaptação.
    
    -Client colabora com objetos em conformidade com a interface de destino.
-  -[] Sample Code ()
+  - Sample Code 
+  
+  ![](https://github.com/charlyandrei/PadraodeProjeto/blob/master/Padrao%20Adapter/CodeAdapter)
