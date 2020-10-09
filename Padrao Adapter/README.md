@@ -11,9 +11,10 @@ Você poderia mudar a biblioteca para que ela funcione com XML. Contudo, isso po
   - Applicability
      Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
   
-  =![Structure](https://refactoring.guru/images/patterns/diagrams/adapter/example.png)
+  -![Structure](https://refactoring.guru/images/patterns/diagrams/adapter/example.png)
   
   - Participants
+  
    -Target define a interface específica do domínio que o Cliente usa.
    
    -Adapter adapta a interface Adaptee à interface de destino.
