@@ -31,4 +31,4 @@ O padrão Observer funciona como assinaturas de jornais e revistas, ou seja, tem
    -Client colabora com objetos em conformidade com a interface de destino.
   - Sample Code 
   
-  (https://github.com/charlyandrei/PadraodeProjeto/blob/master/Padrao%20Adapter/CodeAdapter)
+  (https://github.com/charlyandrei/PadraodeProjeto/blob/master/Code%20Observer)
