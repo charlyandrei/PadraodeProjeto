@@ -30,4 +30,4 @@ O memento é opaco para o zelador, e o zelador não deve operá-lo
    
   - Sample Code 
   
-  (https://github.com/charlyandrei/PadraodeProjeto/blob/master/Padrao%20Adapter/CodeAdapter)
+(https://github.com/charlyandrei/PadraodeProjeto/blob/master/Memento_code)
