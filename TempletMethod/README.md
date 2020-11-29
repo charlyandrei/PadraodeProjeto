@@ -20,12 +20,12 @@
   ![](https://padroesdeprojetoifc.files.wordpress.com/2016/11/templatemethod1.gif?w=616)
   
   # Participants
-### ClasseAbstrata (Login)
+#### ClasseAbstrata (Login)
 - Define operações abstratas que subclasses concretas definem para implementar certas etapas do algoritmo
 - Implementa um Template Method definindo o esqueleto de um algoritmo
 - O Template Method chama várias operações, entre as quais as operações abstratas da classe
    
-### ClasseConcreta (LoginDecisionSupportSystem)
+#### ClasseConcreta (LoginDecisionSupportSystem)
 -Implementa as operações abstratas para desempenhar as etapas do algoritmo que tenham comportamento específico a esta subclasse
      
   # Sample Code 
