@@ -1,0 +1,11 @@
+public class AtendenteCallCenterStrategy extends AtendenteStrategy {
+
+	public Object saveParameter() {
+		params = new Object[4];
+		params[0] = getCallCenter();
+		params[1] = getLogin();
+		params[2] = getInicioVigencia();
+		params[3] = getOrigemCadastro();
+		return params;
+	}
+}
