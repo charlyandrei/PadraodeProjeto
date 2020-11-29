@@ -20,11 +20,11 @@
   
   # Participants
   
-   -Strategy: É uma interface comum para todas as subclasses, ou para todos os algoritmos que são suportados. O Contexto usa essa interface para chamar uma das subclasses ConcreteStrategy ou um dos algoritmos definidos.
+   - Strategy: É uma interface comum para todas as subclasses, ou para todos os algoritmos que são suportados. O Contexto usa essa interface para chamar uma das subclasses ConcreteStrategy ou um dos algoritmos definidos.
    
-   -ConcreteStrategy: A classe concreta que herda da Strategy abstrata está definida como as subclasses ConcreteStrategyA, ConcreteStrategyB e ConcreteStrategyA no diagrama da figura.
+   - ConcreteStrategy: A classe concreta que herda da Strategy abstrata está definida como as subclasses ConcreteStrategyA, ConcreteStrategyB e ConcreteStrategyA no diagrama da figura.
    
-   -Context: É aquele que vai acessar um dos algoritmos das subclasses de interface Strategy.
+   - Context: É aquele que vai acessar um dos algoritmos das subclasses de interface Strategy.
    
   # Sample Code 
   
