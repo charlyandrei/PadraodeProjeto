@@ -33,4 +33,4 @@ Pode chamar o Factory Method para criar um produto do tipo Produto;
    
   # Sample Code 
   
-  (https://github.com/charlyandrei/PadraodeProjeto/tree/master/Padrao%20State/CodeState)
+  (https://github.com/charlyandrei/PadraodeProjeto/tree/master/Factory%20Method/CodeFactory)
