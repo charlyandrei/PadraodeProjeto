@@ -1,4 +1,3 @@
-# Padrão Projeto Singleton
 # Pattern Name and Classification
 - Padrão Template Method
 - Padrão Comportamental
