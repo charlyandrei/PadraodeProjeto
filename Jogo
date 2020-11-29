@@ -1,0 +1,41 @@
+public class Jogo {
+  // Factory Methods com default
+  public Labirinto criaLabirinto() {
+    return new Labirinto();
+  }
+  public Sala criaSala(int númeroDaSala) {
+    return new Sala(númeroDaSala);
+  }
+  public Parede criaParede() {
+    return new Parede();
+  }
+  public Porta criaPorta(Sala sala1, Sala sala2) {
+    return new Porta(sala1, sala2);
+  }
+
+  // Observe que essa função não tem new:
+  // ela usa Factory Methods
+  // Esta é a *única* diferença com relação
+  // à versão original
+  // Observe como o método só trata da estrutura do labirinto
+  // e não do tipo de elemento que o compõe
+  public Labirinto montaLabirinto() {
+    Labirinto umLabirinto = criaLabirinto();
+    Sala sala1 = criaSala(1);
+    Sala sala2 = criaSala(2);
+    Porta aPorta = criaPorta(sala1, sala2);
+
+    umLabirinto.adicionaSala(sala1);
+    umLabirinto.adicionaSala(sala2);
+
+    sala1.setVizinho(NORTE, criaParede());
+    sala1.setVizinho(LESTE, aporta);
+    sala1.setVizinho(SUL, criaParede());
+    sala1.setVizinho(OESTE, criaParede());
+
+    sala2.setVizinho(NORTE, criaParede());
+    sala2.setVizinho(LESTE, criaParede());
+    sala2.setVizinho(SUL, criaParede());
+    sala2.setVizinho(OESTE, aporta);
+
+    return umLabirinto;
