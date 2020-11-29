@@ -1,0 +1,26 @@
+public class AtendenteIlhaStrategy extends AtendenteStrategy {
+
+	public Object [] saveParameter() {
+		params = new Object[5];
+		params[0] = getCallCenter();
+		params[1] = getLogin();
+		params[2] = getInicioVigencia();
+		params[3] = getOrigemCadastro();
+		params[4] = getIlha();
+		return params;
+	}
+}
+
+public class AtendenteSegmentoStrategy extends AtendenteStrategy {
+
+	public Object [] saveParameter() {
+		params = new Object[6];
+		params[0] = getCallCenter();
+		params[1] = getLogin();
+		params[2] = getInicioVigencia();
+		params[3] = getOrigemCadastro();
+		params[4] = getIlha();
+		params[5] = getSegmento();
+		return params;
+	}
+}
