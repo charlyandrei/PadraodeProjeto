@@ -24,11 +24,11 @@
   
   # Participants
   
-   -Contexto: define a interface com o cliente e mantém a instância de estado concreto o qual define o estado atual do objeto.
+   - Contexto: define a interface com o cliente e mantém a instância de estado concreto o qual define o estado atual do objeto.
    
-   -Estado: Interface que permite encapsular as responsabilidades associadas ao estado particular de contexto.
+   - Estado: Interface que permite encapsular as responsabilidades associadas ao estado particular de contexto.
    
-   -EstadoConcreto: Um ou mais estados concretos que implementam a interface estado.
+   - EstadoConcreto: Um ou mais estados concretos que implementam a interface estado.
    
   # Sample Code 
   
