@@ -1,0 +1,5 @@
+public interface IContaState
+{
+  void Saque(Double valor);
+  void Deposito(Double valor);
+}
