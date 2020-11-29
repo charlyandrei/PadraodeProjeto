@@ -1,0 +1,29 @@
+public abstract class AtendenteStrategy {
+
+	public String getLogin() {
+		...
+	}
+
+	public HashMap<Integer, String> getCallCenters(){
+		...
+	}
+
+	public HashMap<Integer, String> getIlhas(){
+		...
+	}
+
+	public HashMap<String, String> getSegmentos(){
+		...
+	}
+
+	public Calendar getInicioVigencia(){
+		...
+	}
+
+	public String getOrigemCadastro(){
+		...
+	}
+
+	public abstract Object saveParameter();
+
+}
