@@ -1,0 +1,4 @@
+fabrica = FabricaDeCarro.getInstancia();
+System.out.println(fabrica.gerarRelatorio());
+
+System.out.println(FabricaDeCarro.getInstancia().gerarRelatorio());
