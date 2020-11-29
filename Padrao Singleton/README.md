@@ -23,9 +23,9 @@
   
   # Participants
   
-   -Singleton: O construtor é privado, não sendo acessível externamente.
+   - Singleton: O construtor é privado, não sendo acessível externamente.
    
-   -getInstance(): , que retorna a instância privada do objeto singleton da classe.
+   - getInstance(): , que retorna a instância privada do objeto singleton da classe.
    
    
   # Sample Code 
