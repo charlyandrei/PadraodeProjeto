@@ -20,22 +20,22 @@
   
   # Participants
   
-##Component:
+#### Component:
 - Declara a interface para objetos na  composição;
 - Implementa comportamento default para  interface comum a todas as classes, como apropriado;
 - Declara uma interface para acessar ou gerenciar seus componentes filhos.
    
-##Leaf: 
+#### Leaf: 
 - Representa objetos folhas na composição;
 - Define comportamento para objetos  primitivos na composição.
 - EstadoConcreto: Um ou mais estados concretos que implementam a interface estado.
 
-##Composit: 
+#### Composit: 
 - Define comportamento para Componentes que têm filhos;
 - Armazena Componentes filhos;
 - implementa operações relacionadas com filhos na interface do Componente
 
-##Client:
+#### Client:
 - Manipula objetos na composição através da interface Componente.
    
   # Sample Code 
